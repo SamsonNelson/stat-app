@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en"ng-app="statApp">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Staz</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/custom.css" rel="stylesheet">
+  </head>
+  <body>
+      
+<nav class="navbar navbar-inverse" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Statz</a>
+    </div>
+       <div class="collapse navbar-collapse" id="#navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">Teams</a></li>
+            <li><a href="#contact">Leaders</a></li>
+          </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div id='main' ng-controller="statcontroller">
+    <div class="players">
+        <div class="individualPlayers">Trey Burke #3</div>
+        <div class="individualPlayers">Dante Exum #11</div>
+        <div class="individualPlayers">Gordan Hayward #20</div>
+        <div class="individualPlayers">Derrick Favors #15</div>
+        <div class="individualPlayers">Rudy Gobert #27</div>
+    </div>
+    <div class="tracker1">
+        
+        <div class='test'>
+        <button countPointsTwo class="trackerButtons">2</button>
+        <button ng-click="countPointsTwo = CountPointsTwo + 3" class="trackerButtons three">3</button>
+        <button ng-click="countOffReb = countOffReb + 1" class="trackerButtons">OFF Reb</button>
+        <button ng-click="countDefReb = countDefReb + 1"class="trackerButtons">DEF Reb</button>
+        <button ng-click="countAssists = countAssists + 1"class="trackerButtons">Assists</button>
+        <button ng-click="countSteals = countSteals + 1"class="trackerButtons">Steals</button>
+        <button ng-click="countFouls = countFouls + 1"class="trackerButtons">Fouls</button>
+        </div>
+          <div class='test2'>
+              <div class="numberBoxes points">{{countPointsTwo}}</div>
+        <div class="numberBoxes offReb">{{countOffReb}}</div>
+        <div class="numberBoxes defReb">{{countDefReb}}</div>
+        <div class="numberBoxes assists">{{countAssists}}</div>
+        <div class="numberBoxes steals">{{countSteals}}</div>
+        <div class="numberBoxes fouls">{{countFouls}}</div>
+        </div>
+        
+        <div class="test bottom">
+        <button ng-click="countPointsTwo = countPointsTwo + 2" class="trackerButtons">2</button>
+        <button ng-click="countPointsTwo = CountPointsTwo + 3" class="trackerButtons three">3</button>
+        <button ng-click="countOffReb = countOffReb + 1" class="trackerButtons">OFF Reb</button>
+        <button ng-click="countDefReb = countDefReb + 1"class="trackerButtons">DEF Reb</button>
+        <button ng-click="countAssists = countAssists + 1"class="trackerButtons">Assists</button>
+        <button ng-click="countSteals = countSteals + 1"class="trackerButtons">Steals</button>
+        <button ng-click="countFouls = countFouls + 1"class="trackerButtons">Fouls</button>
+        </div>
+          <div class='test2'>
+        <div class="numberBoxes points">{{countPointsTwo}}</div>
+        <div class="numberBoxes offReb">{{countOffReb}}</div>
+        <div class="numberBoxes defReb">{{countDefReb}}</div>
+        <div class="numberBoxes assists">{{countAssists}}</div>
+        <div class="numberBoxes steals">{{countSteals}}</div>
+        <div class="numberBoxes fouls">{{countFouls}}</div>
+        </div>
+        <div class='test bottom'>
+        <button ng-click="countPointsTwo = countPointsTwo + 2" class="trackerButtons">2</button>
+        <button ng-click="countPointsTwo = CountPointsTwo + 3" class="trackerButtons three">3</button>
+        <button ng-click="countOffReb = countOffReb + 1" class="trackerButtons">OFF Reb</button>
+        <button ng-click="countDefReb = countDefReb + 1"class="trackerButtons">DEF Reb</button>
+        <button ng-click="countAssists = countAssists + 1"class="trackerButtons">Assists</button>
+        <button ng-click="countSteals = countSteals + 1"class="trackerButtons">Steals</button>
+        <button ng-click="countFouls = countFouls + 1"class="trackerButtons">Fouls</button>
+        </div>
+          <div class='test2'>
+              <div class="numberBoxes points">{{countPointsTwo}}</div>
+        <div class="numberBoxes offReb">{{countOffReb}}</div>
+        <div class="numberBoxes defReb">{{countDefReb}}</div>
+        <div class="numberBoxes assists">{{countAssists}}</div>
+        <div class="numberBoxes steals">{{countSteals}}</div>
+        <div class="numberBoxes fouls">{{countFouls}}</div>
+        </div>
+        <div class='test bottom'>
+        <button ng-click="countPointsTwo = countPointsTwo + 2" class="trackerButtons">2</button>
+        <button ng-click="countPointsTwo = CountPointsTwo + 3" class="trackerButtons three">3</button>
+        <button ng-click="countOffReb = countOffReb + 1" class="trackerButtons">OFF Reb</button>
+        <button ng-click="countDefReb = countDefReb + 1"class="trackerButtons">DEF Reb</button>
+        <button ng-click="countAssists = countAssists + 1"class="trackerButtons">Assists</button>
+        <button ng-click="countSteals = countSteals + 1"class="trackerButtons">Steals</button>
+        <button ng-click="countFouls = countFouls + 1"class="trackerButtons">Fouls</button>
+        </div>
+          <div class='test2'>
+              <div class="numberBoxes points">{{countPointsTwo}}</div>
+        <div class="numberBoxes offReb">{{countOffReb}}</div>
+        <div class="numberBoxes defReb">{{countDefReb}}</div>
+        <div class="numberBoxes assists">{{countAssists}}</div>
+        <div class="numberBoxes steals">{{countSteals}}</div>
+        <div class="numberBoxes fouls">{{countFouls}}</div>
+        </div>
+        <div class='test bottom'>
+        <button ng-click="countPointsTwo = countPointsTwo + 2" class="trackerButtons">2</button>
+        <button ng-click="countPointsTwo = CountPointsTwo + 3" class="trackerButtons three">3</button>
+        <button ng-click="countOffReb = countOffReb + 1" class="trackerButtons">OFF Reb</button>
+        <button ng-click="countDefReb = countDefReb + 1"class="trackerButtons">DEF Reb</button>
+        <button ng-click="countAssists = countAssists + 1"class="trackerButtons">Assists</button>
+        <button ng-click="countSteals = countSteals + 1"class="trackerButtons">Steals</button>
+        <button ng-click="countFouls = countFouls + 1"class="trackerButtons">Fouls</button>
+        </div>
+          <div class='test2'>
+              <div class="numberBoxes points">{{countPointsTwo}}</div>
+        <div class="numberBoxes offReb">{{countOffReb}}</div>
+        <div class="numberBoxes defReb">{{countDefReb}}</div>
+        <div class="numberBoxes assists">{{countAssists}}</div>
+        <div class="numberBoxes steals">{{countSteals}}</div>
+        <div class="numberBoxes fouls">{{countFouls}}</div>
+        </div>
+        
+
+        </div>
+    
+    
+    </div>
+    
+    
+    
+ </div>
+
+
+</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+    <script src="app.js"></script>
+    <script src="statcontroller.js"></script>
+    
+  </body>
+</html>

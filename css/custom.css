@@ -1,0 +1,166 @@
+.navbar-header{
+    text-align: center;
+}
+html{
+    background-color: #eeeeee;
+    
+}
+
+#main {
+   min-height: 800px;
+   margin: 0px;
+   padding: 0px;
+   display: -webkit-flex;
+   display:         flex;
+   -webkit-flex-flow: row;
+           flex-flow: row;
+    background-color: #eeeeee;
+   }
+ 
+  .players{
+   margin-left: 40px;
+   margin-top: 10px;
+   width: 60%;
+   padding: 5px;
+   background: #FFF;
+   -webkit-flex: 1 1 20%;
+           flex: 1 1 20%;
+   -webkit-order: 2;
+           order: 2;
+      display: flex;
+      flex-flow: column;
+      color: #226ebe
+       }
+.individualPlayers{
+    text-align: center;
+    margin-bottom: 42px;
+    margin-top: 10px;
+    
+    }
+
+  .tracker1 {
+   padding: 5px;
+      margin-right: 100px;
+   border: 1px solid #8888bb;
+      margin-top: 10px;
+   background: #FFF;
+   -webkit-flex: 3 6 50%;
+           flex: 3 6 50%;
+   -webkit-order: 3;
+           order: 3;
+        display: flex;
+      flex-direction: column;
+  }
+.test {
+    flex-direction: row;
+    display: flex;
+    margin-bottom: 3px;
+}
+.test.bottom{
+    margin-top: 23px;
+}
+.test2 {
+    flex-direction: row;
+    display: flex;
+    
+}
+
+
+.trackerButtons{
+border-top: 1px solid #96d1f8;
+    height: 24px;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#1268a1), to(#65a9d7));
+   background: -webkit-linear-gradient(top, #1268a1, #65a9d7);
+   background: -moz-linear-gradient(top, #1268a1, #65a9d7);
+   background: -ms-linear-gradient(top, #1268a1, #65a9d7);
+   background: -o-linear-gradient(top, #1268a1, #65a9d7);
+   padding: 5px 10px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 14px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+    margin-right: 15px;
+        justify-content: center;
+   }
+
+.numberBoxes{
+    height: 24px;
+  -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   padding: 5px 10px;
+   background-color: #eeeeee;
+   color: black;
+   font-size: 14px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+    margin-right: 15px;
+   justify-content: center;
+    
+}
+.trackerButtons.three{
+    height: 24px;
+  -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   padding: 5px 10px;
+   background-color: #eeeeee;
+   color: white;
+   font-size: 14px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+    margin-right: 15px;
+   justify-content: center;
+    margin-left: -14px;
+    
+}
+.numberBoxes.points{
+    width: 59.34px;
+    text-align: center;
+    margin-left: 1px;
+    
+}
+.numberBoxes.offReb{
+    width: 75.015px;
+    text-align: center;
+    margin-left: 5px;
+}
+.numberBoxes.defReb{
+    width: 75.84px;
+    text-align: center;
+        margin-left: 5px
+
+}
+.numberBoxes.assists{
+    width: 62.5313px;
+    text-align: center;
+        margin-left: 4px;
+
+}
+.numberBoxes.steals{
+    width: 56.57px;
+    text-align: center;
+        margin-left: 4px;
+
+}
+.numberBoxes.fouls{
+    width: 54.049px;
+    text-align: center;
+        margin-left: 4px;
+
+}
+
+
+      
+      
